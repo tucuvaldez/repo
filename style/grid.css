@@ -37,11 +37,12 @@ html {
 .mainContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.3 1.7;
+    grid-template-rows: 0.3fr 0.7fr 1fr;
     gap: 30px 30px;
     grid-template-areas:
         "titulo titulo titulo"
-        "div1 div2 div3";
+        "div1 div2 div3"
+        "galeria galeria galeria";
     grid-area: mainContainer;
     text-align: justify;
     margin-top: 20px;
@@ -73,6 +74,10 @@ h3 {
 
 .div3 {
     grid-area: div3;
+}
+
+.galeria {
+    grid-area: galeria;
 }
 
 #logo {
@@ -267,6 +272,51 @@ svg {
 strong {
     color: #A64B2A;
     text-decoration: underline;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "galeria1 galeria2 galeria3"
+        "galeria4 galeria5 galeria6";
+    gap: 15px;
+    margin: 15px;
+}
+
+.galeria img {
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.galeria img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.galeria1 {
+    grid-area: galeria1;  
+}
+
+.galeria2 {
+    grid-area: galeria2;
+}
+
+.galeria3 {
+    grid-area: galeria3;
+}
+
+.galeria4 {
+    grid-area: galeria4;
+}
+
+.galeria5 {
+    grid-area: galeria5;
+}
+
+.galeria6 {
+    grid-area: galeria6;
 }
 
 /* No se que estoy haciendo mal 
