@@ -31,17 +31,13 @@ h3 {
 ul {
     list-style-type: none;
     float: right;
-    margin-top: 50px;
-    margin-right: 20px;
-    padding: 8px;
     font-family: 'Alice', serif;
 }
 
 li a {
     display: inline-block;
     color: white;
-    text-align: center;
-    padding: 8px 10px;
+    text-align: right;
     text-decoration: none;
 }
 
