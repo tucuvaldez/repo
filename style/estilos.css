@@ -69,7 +69,7 @@ form {
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   margin-top: 15px; }
-  form input {
+  form input, form textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -77,18 +77,11 @@ form {
     border: 1px solid #ccc;
     border-radius: 4px; }
   form textarea {
-    width: 100%;
     height: 150px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
     opacity: 0.7; }
 
-.enviar,
-select {
+select, .enviar {
   width: 100%;
   background-color: #D7A86E;
   color: white;
@@ -102,6 +95,15 @@ svg {
   width: 40px;
   height: 50px;
   margin: 20px; }
+
+.btn--reiki {
+  background-color: #CE9461; }
+
+.btn--sanacion {
+  background-color: #B3541E; }
+
+.btn--registros {
+  background-color: #9e4525; }
 
 .navbar {
   background-color: #D7A86E; }

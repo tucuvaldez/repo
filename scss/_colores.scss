@@ -1,9 +1,20 @@
-$orange: #e3a457;
+$orange: #D7A86E;
 $strong: #A64B2A;
+
+$sesiones: (
+    reiki: #CE9461,
+    sanacion: #B3541E,
+    registros: #9e4525,
+);
+
+@each $sesion, $color in $sesiones {
+    .btn--#{$sesion} {
+        background-color: $color;
+    }
+}
 
 .navbar {
     background-color: $orange
-
 }
 
 strong {
