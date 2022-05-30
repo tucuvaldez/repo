@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(../imagen/yoga_fondo.gif);
+    background-position: center bottom;
+    background-size: cover;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Alice', serif;
+    margin: 10px;
+    margin-left: 0px;
+}
