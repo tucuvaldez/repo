@@ -96,14 +96,8 @@ svg {
   height: 50px;
   margin: 20px; }
 
-.btn--reiki {
-  background-color: #CE9461; }
-
-.btn--sanacion {
-  background-color: #B3541E; }
-
-.btn--registros {
-  background-color: #9e4525; }
+.btn {
+  background-color: #D7A86E; }
 
 .navbar {
   background-color: #D7A86E; }
