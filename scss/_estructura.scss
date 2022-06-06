@@ -31,22 +31,14 @@ ul {
 .galeria img {
     margin-top: 50px;
     border-radius: 20px;
-    transition: all 0.5s;
-
-    &:hover {
-        transform: scale(1.2);
-        cursor: pointer;
-    }
 }
 
 .yoga,
 .yoga1 {
     display: flex;
-    text-align: justify;
 }
 
 .sobreMi {
-    text-align: justify;
 
     .contenedorSobreMi {
         margin-bottom: 25px
@@ -112,4 +104,30 @@ svg {
     width: 40px;
     height: 50px;
     margin: 20px;
+}
+
+@media (min-width: 768px) {
+    .galeria img {
+        margin-top: 50px;
+        border-radius: 20px;
+        transition: all 0.5s;
+    
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .galeria img {
+        margin-top: 50px;
+        border-radius: 20px;
+        transition: all 0.5s;
+    
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
 }

@@ -13,8 +13,15 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-family: 'Alice', serif;
     margin: 10px;
     margin-left: 0px;
+}
+
+p,
+ol li {
+    text-align: justify;
 }
