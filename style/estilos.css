@@ -103,9 +103,7 @@ svg {
     transition: all 0.5s; }
     .galeria img:hover {
       transform: scale(1.2);
-      cursor: pointer; }
-  header {
-    position: static; } }
+      cursor: pointer; } }
 
 @media (min-width: 1024px) {
   .galeria img {
@@ -114,9 +112,7 @@ svg {
     transition: all 0.5s; }
     .galeria img:hover {
       transform: scale(1.2);
-      cursor: pointer; }
-  header {
-    position: static; } }
+      cursor: pointer; } }
 
 .btn {
   background-color: #D7A86E; }
